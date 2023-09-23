@@ -4,19 +4,19 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Lineage stuff.
+# Inherit some common SlimRoms stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/bonito/aosp_bonito.mk)
 
-include device/google/bonito/device-lineage.mk
+include device/google/bonito/device-slim.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 3a XL
-PRODUCT_NAME := lineage_bonito
+PRODUCT_NAME := slim_bonito
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160

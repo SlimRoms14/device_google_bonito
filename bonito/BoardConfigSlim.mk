@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-include device/google/bonito/BoardConfigLineage.mk
+include device/google/bonito/BoardConfigSlim.mk
 
 include vendor/google/bonito/BoardConfigVendor.mk

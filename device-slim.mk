@@ -5,7 +5,7 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-slim
 
 # AiAi Config
 PRODUCT_COPY_FILES += \
