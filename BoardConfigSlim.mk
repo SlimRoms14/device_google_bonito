@@ -38,9 +38,5 @@ BOARD_SYSTEM_EXTIMAGE_EXTFS_INODE_COUNT := -1
 BOARD_SYSTEM_EXTIMAGE_PARTITION_RESERVED_SIZE := 92160000
 endif
 
-# SELinux
-BOARD_SEPOLICY_DIRS += device/google/bonito/sepolicy-slim/dynamic
-BOARD_SEPOLICY_DIRS += device/google/bonito/sepolicy-slim/vendor
-
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
